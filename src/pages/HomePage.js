@@ -3,12 +3,11 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {
   Building2, Users, CalendarCheck, Shield, Search,
-  ArrowRight, Star, Zap, Clock, MapPin
+  ArrowRight, Zap, Clock
 } from 'lucide-react';
 import { useHalls } from '../context/HallContext';
 import HallCard from '../components/HallCard';
 import { HALL_TYPES } from '../data/sampleData';
-import { formatCurrency } from '../utils/helpers';
 
 const STATS = [
   { icon: Building2, label: 'Conference Spaces', value: '7+' },

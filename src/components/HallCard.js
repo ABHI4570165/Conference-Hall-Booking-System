@@ -1,7 +1,7 @@
 // src/components/HallCard.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Users, Clock, Wifi, Star, ArrowRight } from 'lucide-react';
+import { MapPin, Users, ArrowRight } from 'lucide-react';
 import { formatCurrency, getStatusBadge, getFacilityIcon, truncate } from '../utils/helpers';
 
 const HallCard = ({ hall }) => {

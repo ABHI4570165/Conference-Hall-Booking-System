@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import {
-  MapPin, Users, Clock, Star, ArrowLeft, Calendar,
-  CheckCircle, AlertCircle, Wifi, Zap
+  MapPin, Users, Clock, ArrowLeft, Calendar,
+  CheckCircle, AlertCircle, Zap
 } from 'lucide-react';
 import { useHalls } from '../context/HallContext';
 import { useBookings } from '../context/BookingContext';

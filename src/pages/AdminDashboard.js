@@ -3,7 +3,7 @@ import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Building2, Users, CalendarDays, TrendingUp, Star,
-  Clock, CheckCircle, XCircle, AlertTriangle, ArrowRight
+  AlertTriangle, ArrowRight
 } from 'lucide-react';
 import { useHalls } from '../context/HallContext';
 import { useBookings } from '../context/BookingContext';

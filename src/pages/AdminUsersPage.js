@@ -1,6 +1,6 @@
 // src/pages/AdminUsersPage.js
 import React, { useState, useMemo } from 'react';
-import { Search, User, Mail, Phone, Briefcase, Calendar } from 'lucide-react';
+import { Search, Mail, Phone, Briefcase, Calendar } from 'lucide-react';
 import { getUsers } from '../utils/localStorage';
 import { formatDate, getInitials } from '../utils/helpers';
 import { useBookings } from '../context/BookingContext';

@@ -1,6 +1,6 @@
 // src/components/BookingModal.js
 import React, { useState, useEffect } from 'react';
-import { X, Calendar, Clock, DollarSign, AlertTriangle, CheckCircle } from 'lucide-react';
+import { X, Calendar, Clock, AlertTriangle, CheckCircle } from 'lucide-react';
 import { useBookings } from '../context/BookingContext';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
@@ -21,7 +21,6 @@ const BookingModal = ({ hall, onClose }) => {
   });
   const [available, setAvailable] = useState(null);
   const [submitting, setSubmitting] = useState(false);
-  const [step, setStep] = useState(1); // 1 = form, 2 = confirm
 
   const timeSlots = getTimeSlots();
   const duration = calcDuration(form.startTime, form.endTime);
@@ -35,7 +34,7 @@ const BookingModal = ({ hall, onClose }) => {
     } else {
       setAvailable(null);
     }
-  }, [form.bookingDate, form.startTime, form.endTime]);
+  }, [checkAvailability, hall.id, form.bookingDate, form.startTime, form.endTime]);
 
   const handleSubmit = async () => {
     if (!isAuthenticated) {

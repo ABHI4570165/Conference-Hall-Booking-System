@@ -1,8 +1,8 @@
 // src/pages/BookingSuccessPage.js
 import React from 'react';
 import { Link, useLocation, Navigate } from 'react-router-dom';
-import { CheckCircle, Calendar, Clock, MapPin, Users, DollarSign, ArrowRight, LayoutDashboard } from 'lucide-react';
-import { formatCurrency, formatDate, formatTime } from '../utils/helpers';
+import { CheckCircle, Calendar, Clock, Users, DollarSign, ArrowRight, LayoutDashboard } from 'lucide-react';
+import { formatCurrency, formatDate } from '../utils/helpers';
 import Navbar from '../components/Navbar';
 
 const BookingSuccessPage = () => {

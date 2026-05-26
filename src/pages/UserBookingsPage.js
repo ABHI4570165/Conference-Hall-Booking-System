@@ -5,7 +5,7 @@ import { CalendarDays, Search, X, Building2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useBookings } from '../context/BookingContext';
 import { useToast } from '../context/ToastContext';
-import { formatCurrency, formatDate, getStatusBadge, calcDuration } from '../utils/helpers';
+import { formatCurrency, formatDate, getStatusBadge } from '../utils/helpers';
 
 const UserBookingsPage = () => {
   const { currentUser } = useAuth();

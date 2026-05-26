@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {
-  LayoutDashboard, Building2, CalendarDays, Users, Settings,
-  LogOut, Menu, X, Star, PlusSquare, ClipboardList, User, ChevronRight
+  LayoutDashboard, Building2, CalendarDays, Users,
+  LogOut, ClipboardList, User, ChevronRight
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';

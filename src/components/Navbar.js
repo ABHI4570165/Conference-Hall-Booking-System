@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {
-  Building2, Menu, X, Bell, LogOut, User, LayoutDashboard,
+  Building2, Menu, X, LogOut, User, LayoutDashboard,
   ChevronDown, Search
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';

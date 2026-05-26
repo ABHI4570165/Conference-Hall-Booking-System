@@ -1,6 +1,6 @@
 // src/components/FilterSidebar.js
 import React from 'react';
-import { SlidersHorizontal, X, RotateCcw } from 'lucide-react';
+import { SlidersHorizontal, RotateCcw } from 'lucide-react';
 import { HALL_TYPES, FACILITIES_LIST, AVAILABILITY_STATUS } from '../data/sampleData';
 
 const FilterSidebar = ({ filters, onChange, onReset }) => {

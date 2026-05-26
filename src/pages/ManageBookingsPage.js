@@ -1,6 +1,6 @@
 // src/pages/ManageBookingsPage.js
 import React, { useState, useMemo } from 'react';
-import { Check, X, Search, Filter, Eye } from 'lucide-react';
+import { Check, X, Search, Eye } from 'lucide-react';
 import { useBookings } from '../context/BookingContext';
 import { useToast } from '../context/ToastContext';
 import { formatCurrency, formatDate, getStatusBadge } from '../utils/helpers';
